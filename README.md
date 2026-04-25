@@ -4,7 +4,6 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![GitHub stars](https://img.shields.io/github/stars/IainAmosMelchizedek/awesome-revenue-algorithms)
-![GitHub repo size](https://img.shields.io/github/repo-size/IainAmosMelchizedek/awesome-revenue-algorithms)
 
 ## Table of Contents
 
@@ -21,17 +20,26 @@
 
 ### Core Techniques & Battle-Tested Examples
 - **Greedy Pricing Heuristics** — Simple, fast, interpretable rules with proven revenue lift in production.  
-  *Example (Murphy Street)*: Used a greedy algorithm to optimize pricing decisions that increased monetization. (Details and code coming in next steps)
+  *Example (Murphy Street)*: Used a greedy algorithm to optimize pricing decisions that increased monetization. (Full details and code example coming in next steps)
 - Contextual Bandits (LinUCB, Thompson Sampling) for personalized real-time pricing
-- Dynamic Programming / Revenue Management models (adapted from airline/hotel yield management to SaaS and e-commerce)
+- Dynamic Programming / Revenue Management models (classic airline/hotel yield management adapted to SaaS and e-commerce)
 
 ### Libraries (by language)
+
 **Python**
 - [PuLP](https://coin-or.github.io/pulp/) — Linear programming for price optimization
 - [Pyomo](https://www.pyomo.org/) — Modeling optimization problems
 - [Nevergrad](https://facebookresearch.github.io/nevergrad/) — Derivative-free optimization (great for pricing experiments)
+- [scikit-learn](https://scikit-learn.org/) — For churn prediction and recommendation systems tied to monetization
 
-*(More libraries and languages will be added in future steps)*
+**JavaScript / TypeScript**
+- [ml.js](https://github.com/mljs/ml) — Lightweight ML for browser-based pricing models
+
+*(More languages and tools will be added)*
+
+## General Optimization Libraries
+- [OR-Tools](https://developers.google.com/optimization) — Google's powerful optimization suite
+- [Gurobi](https://www.gurobi.com/) — High-performance commercial solver (excellent for large-scale revenue problems)
 
 ## Contributing
 
@@ -40,4 +48,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — high-signal, revenue-impact focused a
 ## License
 
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — Public domain.
-
