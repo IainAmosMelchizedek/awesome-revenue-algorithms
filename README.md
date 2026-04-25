@@ -1,6 +1,6 @@
 # Awesome Revenue Algorithms
 
-> Curated list of algorithms, libraries, frameworks, and battle-tested techniques for **monetization optimization**, dynamic pricing, revenue management, churn reduction, upsell/cross-sell, and related systems that drive real business impact.
+> Curated list of algorithms, libraries, frameworks, and **battle-tested techniques** for monetization optimization, dynamic pricing, revenue management, churn reduction, upsell/cross-sell, and systems that drive real business impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![GitHub stars](https://img.shields.io/github/stars/IainAmosMelchizedek/awesome-revenue-algorithms)
@@ -13,31 +13,31 @@
 - [Recommendation & Personalization Engines](#recommendation--personalization-engines)
 - [Churn Prediction & Retention Optimization](#churn-prediction--retention-optimization)
 - [A/B Testing & Experimentation](#ab-testing--experimentation)
-- [Payment Optimization & Fraud Prevention](#payment-optimization--fraud-prevention)
-- [Subscription & Billing Optimization](#subscription--billing-optimization)
 - [General Optimization Libraries](#general-optimization-libraries)
 - [Papers & Case Studies](#papers--case-studies)
 - [Contributing](#contributing)
 
 ## Dynamic / Algorithmic Pricing
 
-### Core Techniques
-- **Greedy Pricing Heuristics** — Simple, fast, interpretable rules that delivered strong revenue lift in production environments (Murphy Street example coming soon)
-- Contextual Bandits (e.g. LinUCB, Thompson Sampling) for personalized pricing
-- Dynamic Programming / Revenue Management models (classic airline/hotel yield management adapted to SaaS/e-commerce)
+### Core Techniques & Battle-Tested Examples
+- **Greedy Pricing Heuristics** — Simple, fast, interpretable rules with proven revenue lift in production.  
+  *Example (Murphy Street)*: Used a greedy algorithm to optimize pricing decisions that increased monetization. (Details and code coming in next steps)
+- Contextual Bandits (LinUCB, Thompson Sampling) for personalized real-time pricing
+- Dynamic Programming / Revenue Management models (adapted from airline/hotel yield management to SaaS and e-commerce)
 
 ### Libraries (by language)
 **Python**
-- [Pyomo](https://www.pyomo.org/) / [PuLP](https://coin-or.github.io/pulp/) — Linear programming for price optimization
-- [Nevergrad](https://facebookresearch.github.io/nevergrad/) — Derivative-free optimization
+- [PuLP](https://coin-or.github.io/pulp/) — Linear programming for price optimization
+- [Pyomo](https://www.pyomo.org/) — Modeling optimization problems
+- [Nevergrad](https://facebookresearch.github.io/nevergrad/) — Derivative-free optimization (great for pricing experiments)
 
-*(More entries will be added in future steps)*
+*(More libraries and languages will be added in future steps)*
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) — we welcome high-signal, revenue-focused additions.
+See [CONTRIBUTING.md](CONTRIBUTING.md) — high-signal, revenue-impact focused additions welcome.
 
 ## License
 
-This list is dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — Public domain.
 
