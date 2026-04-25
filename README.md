@@ -1,43 +1,43 @@
 # Awesome Revenue Algorithms
 
-> Curated list of algorithms, libraries, frameworks, and techniques that drive real monetization impact: dynamic pricing, revenue optimization, retention, upsell, churn prevention, and more.
+> Curated list of algorithms, libraries, frameworks, and battle-tested techniques for **monetization optimization**, dynamic pricing, revenue management, churn reduction, upsell/cross-sell, and related systems that drive real business impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/iainAmosMelchizedek/awesome-revenue-algorithms)](https://github.com/iainAmosMelchizedek/awesome-revenue-algorithms/stargazers)
+![GitHub stars](https://img.shields.io/github/stars/IainAmosMelchizedek/awesome-revenue-algorithms)
+![GitHub repo size](https://img.shields.io/github/repo-size/IainAmosMelchizedek/awesome-revenue-algorithms)
 
 ## Table of Contents
 
 - [Dynamic / Algorithmic Pricing](#dynamic--algorithmic-pricing)
 - [Revenue Management & Yield Optimization](#revenue-management--yield-optimization)
-- [Recommendation & Personalization (Upsell/Cross-sell)](#recommendation--personalization-upsellcross-sell)
+- [Recommendation & Personalization Engines](#recommendation--personalization-engines)
 - [Churn Prediction & Retention Optimization](#churn-prediction--retention-optimization)
-- [A/B Testing & Experimentation Frameworks](#ab-testing--experimentation-frameworks)
-- [Payment & Fraud Optimization](#payment--fraud-optimization)
-- [Subscription & Billing Systems](#subscription--billing-systems)
+- [A/B Testing & Experimentation](#ab-testing--experimentation)
+- [Payment Optimization & Fraud Prevention](#payment-optimization--fraud-prevention)
+- [Subscription & Billing Optimization](#subscription--billing-optimization)
 - [General Optimization Libraries](#general-optimization-libraries)
-- [Production & Scaling Tools](#production--scaling-tools)
 - [Papers & Case Studies](#papers--case-studies)
+- [Contributing](#contributing)
 
 ## Dynamic / Algorithmic Pricing
 
-### Core Algorithms & Techniques
-- **Greedy Pricing Heuristics** — Fast, interpretable rules that proved effective in production (example from Murphy Street use-case coming soon)
-- Contextual Bandits / Reinforcement Learning for personalized pricing
-- Dynamic Programming & Revenue Management models (airline/hotel style)
+### Core Techniques
+- **Greedy Pricing Heuristics** — Simple, fast, interpretable rules that delivered strong revenue lift in production environments (Murphy Street example coming soon)
+- Contextual Bandits (e.g. LinUCB, Thompson Sampling) for personalized pricing
+- Dynamic Programming / Revenue Management models (classic airline/hotel yield management adapted to SaaS/e-commerce)
 
 ### Libraries (by language)
-- **Python**
-- **JavaScript / TypeScript**
-- **Go / Rust**
-- **Java / Scala**
+**Python**
+- [Pyomo](https://www.pyomo.org/) / [PuLP](https://coin-or.github.io/pulp/) — Linear programming for price optimization
+- [Nevergrad](https://facebookresearch.github.io/nevergrad/) — Derivative-free optimization
 
-*(More sections will be filled as we go)*
+*(More entries will be added in future steps)*
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md) — we welcome high-signal, revenue-focused additions.
 
 ## License
 
-CC0 1.0 Universal (public domain dedication) — feel free to use this list anywhere.
+This list is dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 
